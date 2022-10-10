@@ -1,0 +1,109 @@
+:root{
+  --primary-color:#212121;
+  --secondary-color:#2196F3;
+  --background-primary-color:#ffffff;
+  --background-second-color: #2F303A;
+  --accent-text-color:#757575;
+}
+
+body{
+  font-family:'Roboto',sans-serif;
+  color: var(--primary-color);
+  background-color: var(--background-primary-color);
+}
+
+button{
+  cursor: pointer;
+}
+
+.list{
+  list-style: none;
+}
+
+/* header */
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color:var(--primary-color);
+}
+
+.logo-blue{
+  color:var(--secondary-color)
+}
+
+.site-nav .link{
+  color: var(--primary-color);
+}
+
+.site-nav .current-page{
+  color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: var(--secondary-color);
+}
+
+a.contact-link:hover,
+a.contact-link:focus{
+ color: var(--secondary-color);
+}
+
+/* hero-section */
+
+.hero{
+  background-color: var(--background-second-color);
+}
+
+.hero-title{
+  color:var(--background-primary-color);
+}
+
+.hero-btn{
+  background-color: var(--secondary-color);
+  color: var(--background-primary-color);
+}
+
+/* advantage-section */
+.advantage-text{
+  color: var(--accent-text-color);
+}
+
+/* our-team-section */
+
+.team-text{
+  color: var(--accent-text-color);
+}
+
+/* footer */
+
+footer{
+  background-color: var(--background-second-color);
+}
+
+.footer-adress{
+  color: var(--background-primary-color);
+}
+
+.footer-contact{
+  color:  rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+.filter-btn:hover,
+.filter-btn:focus{
+  background-color: var(--secondary-color);
+  color: var(--background-primary-color);
+}
+
+.portfolio-list a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.portfolio-text{
+  color: var(--accent-text-color);
+}
+
