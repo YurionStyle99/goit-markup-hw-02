@@ -18,6 +18,14 @@ button{
   cursor: pointer;
 }
 
+a{
+  text-decoration: none;
+}
+
+address{
+  font-style: normal;
+}
+
 .list{
   list-style: none;
 }
@@ -151,29 +159,35 @@ footer{
   background-color: var(--background-second-color);
 }
 
-.footer-adress{
+.logo-footer{
   color: var(--background-primary-color);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
-.address-nav{
+
+
+.footer-contact,
+.footer-contact>a{
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact>a{
-  text-decoration: none;
-  color:var(--primary-color);
+.footer-contact:first-child{
+  color: var(--background-primary-color);
 }
+
 
 .footer-contact>a:hover,
-.footer-contact>a:focus{
-  text-decoration: none;
-  color:var(--background-primary-color);
-}
-
+.footer-contact>a:focus,
 .footer-contact:hover,
 .footer-contact:focus{
-  color:  var(--background-primary-color)
+  text-decoration: none;
+  color:var(--secondary-color);
 }
+
 
 /* portfolio */
 .filter-btn{
@@ -181,6 +195,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
+background: #F5F4FA;
 }
 
 .filter-btn:hover,
